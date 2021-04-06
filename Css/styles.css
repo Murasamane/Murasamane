@@ -1,0 +1,28 @@
+.HC{
+color:green ;
+text-align: center;
+}
+.Space{
+    text-align: center;
+    text-decoration: underline  wavy;
+    text-decoration-color: green;
+}
+
+.Time{
+    text-align: center;
+    text-decoration-line: line-through;
+    text-decoration-color: red ;
+}
+.Continium{
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+.tb{
+    text-align: center;
+}

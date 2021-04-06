@@ -1,0 +1,36 @@
+body{
+background-color: rgb(224, 206, 180);
+}
+.div1{
+color:red;
+border: solid thick white;
+width: fit-content;
+position: absolute;
+align-content: left;
+margin-left: 110px;
+
+}
+.div2{
+    color: red;
+    border:solid thick white;
+    width: fit-content;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: auto;
+   margin-bottom: 106px;
+   align-content: center;
+}
+.div3{
+    color: red;
+    border: solid thick white;
+    width: fit-content;
+    margin-left: 1095px;
+    margin-bottom: 550px;
+}
+p{
+   
+    color: black;
+}
+.button{
+    background-color: red;
+}

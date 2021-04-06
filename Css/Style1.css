@@ -1,0 +1,31 @@
+
+
+header{
+    background: rgba(30, 27, 231, 0.747);
+    
+}
+.Story{
+    color: white;
+    font-size: 17px;
+}
+.zero{
+    background-color: rgba(23, 192, 23, 0.61);
+}
+.Bellow{
+    background-color: rgba(252, 252, 252, 0.973);
+    font-size: 17px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+  float: right;
+  border-right: 1px solid;
+}
+a{
+    color: white;
+
+}

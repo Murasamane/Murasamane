@@ -1,0 +1,87 @@
+@font-face {
+  font-family: BPG;
+  src: url(../fonts/bpg_nino_mtavruli_bold.ttf);
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.sub-nav, .navbar{
+z-index: 9999;
+}
+.sub-nav{
+  background-color: #343732bf;
+  padding: 9px 0;
+}
+.navbar{
+  top: 2.7rem;
+}
+a, a:hover{
+text-decoration: none;
+}
+.langs .list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
+.langs a, .menu a{
+  font-family: BPG;
+  font-size: 15px;
+  color: white;
+}
+.menu .list-inline-item:not(:last-child){
+  margin-right: 25px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #6b6b6b;
+  font-family: BPG;
+  font-size: 17px;
+}
+.navbar-dark .navbar-nav .nav-link:focus,  .navbar-dark .navbar-nav .nav-link:hover{
+  color: rgb(52 58 64);
+} 
+
+.dropdown-toggle::after{
+  display: none;
+}
+ .nav-item:first-child .nav-link img{
+  position: relative;
+  bottom: 8px;
+  left: 9px;
+}
+.dogspn{
+  position: relative;
+  bottom: 3px;
+}
+.nav-link{
+  display: block;
+  padding: .9rem 1rem .5rem;
+}
+
+.nav-link img {
+  padding-right: 13px;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+}
+
+.navbar::before{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  background-color: #fff;
+}
